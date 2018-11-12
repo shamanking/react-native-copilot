@@ -129,11 +129,11 @@ class CopilotModal extends Component<Props, State> {
     const arrow = {};
 
     if (verticalPosition === 'bottom') {
-      tooltip.top = obj.top + obj.height + MARGIN;
+      tooltip.top = obj.top + obj.height + MARGIN / 2;
       arrow.borderBottomColor = 'rgba(37, 50, 65, 0.87)';
       arrow.top = tooltip.top - (ARROW_SIZE * 2);
     } else {
-      tooltip.bottom = layout.height - (obj.top - MARGIN);
+      tooltip.bottom = layout.height - (obj.top - MARGIN / 2);
       arrow.borderTopColor = 'rgba(37, 50, 65, 0.87)';
       arrow.bottom = tooltip.bottom - (ARROW_SIZE * 2);
     }
