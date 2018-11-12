@@ -26,7 +26,7 @@ export default StyleSheet.create({
     position: 'absolute',
     paddingTop: 15,
     paddingHorizontal: 15,
-    backgroundColor: '#fff',
+    backgroundColor: 'rgba(37, 50, 65, 0.87)',
     borderRadius: 3,
     overflow: 'hidden',
   },
